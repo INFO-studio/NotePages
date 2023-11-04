@@ -2,9 +2,7 @@
 {"dg-publish":true,"permalink":"/杂项/2023-10/Vandermonde行列式定理/","dgPassFrontmatter":true}
 ---
 
-$$
-\left | \begin{matrix} 1& 1& 1& \cdots& 1 \\ a_1& a_2& a_3& \cdots& a_n \\ a_1^2& a_2^2& a_3^2& \cdots& a_n^2 \\ \vdots& \vdots& \vdots& \ddots& \vdots \\ a_1^{n-1}& a_2^{n-1}& a_3^{n-1}& \cdots& a_n^{n-1} \\ \end{matrix} \right | = \prod_{1\le j< i\le n}(a_i-a_j)
-$$
+$$\left | \begin{matrix} 1& 1& 1& \cdots& 1 \\ a_1& a_2& a_3& \cdots& a_n \\ a_1^2& a_2^2& a_3^2& \cdots& a_n^2 \\ \vdots& \vdots& \vdots& \ddots& \vdots \\ a_1^{n-1}& a_2^{n-1}& a_3^{n-1}& \cdots& a_n^{n-1} \\ \end{matrix} \right | = \prod_{1\le j< i\le n}(a_i-a_j)$$
 - **例1**
 	求：
 	$$\left | \begin{matrix}	1& 1& 1& 1\\	1& 2& 3& 4\\	1& 4& 9& 16\\
