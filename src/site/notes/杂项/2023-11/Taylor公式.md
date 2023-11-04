@@ -12,11 +12,14 @@ $$
 其中的多项式称为函数在$a$处的**Taylor展开式**，剩余的$R_n(x)$是Taylor公式的余项，是$(x-a)^n$的高阶无穷小。
 当$n\to\infty$时，则有[[杂项/2023-11/Taylor级数\|Taylor级数]]。
 $R_n(x)$的表达形式有若干种，分别以不同的数学家命名
-- 带有Peano型余项的Taylor公式说明了多项式和函数的接近程度：$$f(x) = f(a) + \frac{f'(a)}{1!}(x-a)+\frac{f^{(2)}(a)}{2!}(x-a)^2
+- 带有Peano型余项的Taylor公式说明了多项式和函数的接近程度：
+$$f(x) = f(a) + \frac{f'(a)}{1!}(x-a)+\frac{f^{(2)}(a)}{2!}(x-a)^2
 +\cdots+\frac{f^{(n)}(a)}{n!}(x-a)^n+o[(x-a)^n]$$也就是说，当$x$无限趋近$a$时，余项$R_n(x)$将会是$(x-a)^n$的高阶无穷小，或者说多项式和函数的误差将远小于$(x-a)^n$。这个结论可以由下面更强的结论推出。
-- 带有Lagrange型余项的Taylor公式可视为[[杂项/2023-11/Lagrange中值定理\|Lagrange中值定理]]的推广：$$f(x) = f(a) + \frac{f'(a)}{1!}(x-a)+\frac{f^{(2)}(a)}{2!}(x-a)^2
+- 带有Lagrange型余项的Taylor公式可视为[[杂项/2023-11/Lagrange中值定理\|Lagrange中值定理]]的推广：
+$$f(x) = f(a) + \frac{f'(a)}{1!}(x-a)+\frac{f^{(2)}(a)}{2!}(x-a)^2
 +\cdots+\frac{f^{(n)}(a)}{n!}(x-a)^n+\frac{f^{(n+1)}(\theta)}{(n+1)!}(x-a)^{n+1}$$即$R_n(x)=\frac{f^{(n+1)}(\theta)}{(n+1)!}(x-a)^{n+1}$，其中$\theta \in (a,x)$。
-- 带有积分型余项的Taylor公式可视为[[微积分基本定理\|微积分基本定理]]的推广：$$f(x) = f(a) + \frac{f'(a)}{1!}(x-a)+\frac{f^{(2)}(a)}{2!}(x-a)^2
+- 带有积分型余项的Taylor公式可视为[[微积分基本定理\|微积分基本定理]]的推广：
+$$f(x) = f(a) + \frac{f'(a)}{1!}(x-a)+\frac{f^{(2)}(a)}{2!}(x-a)^2
 +\cdots+\frac{f^{(n)}(a)}{n!}(x-a)^n+\int_a^x\frac{f^{(n+1)}(t)}{(n+1)!}(x-t)^n\mathrm{d}t$$即$R_n(x)=\int_a^x\frac{f^{(n+1)}(t)}{(n+1)!}(x-t)^n\mathrm{d}t$。
 
 <div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="//2023-11/taylor/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
