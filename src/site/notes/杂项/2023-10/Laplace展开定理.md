@@ -24,8 +24,7 @@ b_{q1}& \cdots& b_{qq}
 \end{matrix} \right |
 $$
 - 更一般地，
-	$$
-	\left | \begin{matrix}
+	$$\left | \begin{matrix}
 	A_1\\
 	& A_2\\
 	& & \ddots\\
@@ -36,22 +35,18 @@ $$
 	a_{11}& \cdots& a_{p1}\\
 	\vdots& \ddots& \vdots\\
 	a_{p1}& \cdots& a_{pp}\\
-	\end{matrix} \right |)
-	$$
+	\end{matrix} \right |)$$
 - **例1**
 	求：
-	$$
-	D=\left | \begin{matrix}
+	$$D=\left | \begin{matrix}
 	2& -1& 1& 1& 2\\
 	1& -2& -1& 3& 1\\
 	0& 1& -1& 0& 1\\
 	0& 2& -2& 0& 2\\
 	0& 1& -1& 0& 1\\
-	\end{matrix} \right |
-	$$
+	\end{matrix} \right |$$
 	解：$D$的形式类似拉普拉斯行列式，要求解$D$，则要将其变换为符合拉普拉斯行列式的形式
-	$$
-	D=(-1)\cdot \left | \begin{matrix}
+	$$D=(-1)\cdot \left | \begin{matrix}
 	2& 1& 1& -1& 2\\
 	1& 3& -1& -2& 1\\
 	0& 0& -1& 1& 1\\
@@ -67,5 +62,4 @@ $$
 	-2& 2& 2\\
 	-1& 1& 1\\
 	\end{matrix} \right |
-	=5 \cdot 0 = 0
-	$$
+	=5 \cdot 0 = 0$$
