@@ -22,20 +22,20 @@
 	- *It taught only materialism, the gospel of mammon.*
 		- *它只是宣扬金钱至上的物欲主义。*
 	- *...the gospel according to my mom.*
-		- ……我妈妈的为人准则。
+		- *……我妈妈的为人准则。*
 
 4. N-UNCOUNT 不可数名词
 	- 福音音乐（尤流行于美国南部黑人基督徒中）
 	- **Gospel** or **gospel music** is a style of religious music that uses strong rhythms and vocal harmony. It is especially popular among black Christians in the southern United States of America.
-	- I had to go to church, so I grew up singing gospel.
-		- 我必须去教堂做礼拜，因此我是唱着福音歌长大的。
-	- The group perform variations on soul and gospel music.
-		- 这个乐队演奏灵歌和福音音乐的变奏曲。
+	- *I had to go to church, so I grew up singing gospel.*
+		- *我必须去教堂做礼拜，因此我是唱着福音歌长大的。*
+	- *The group perform variations on soul and gospel music.*
+		- *这个乐队演奏灵歌和福音音乐的变奏曲。*
 
 5. N-UNCOUNT 不可数名词
 	- 绝对真理
 	- If you take something **as gospel**, or **as gospel truth**, you believe that it is completely true.
-	- The results were not to be taken as gospel.
-		- 别以为这些结果就一定是正确的。
-	- He wouldn't say this if it weren't the gospel truth.
-		- 要不是对此深信不疑，他不会说这样的话。
+	- *The results were not to be taken as gospel.*
+		- *别以为这些结果就一定是正确的。*
+	- *He wouldn't say this if it weren't the gospel truth.*
+		- *要不是对此深信不疑，他不会说这样的话。*
