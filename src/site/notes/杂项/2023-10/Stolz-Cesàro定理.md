@@ -9,11 +9,9 @@ $$
 $$
 则有
 $$
-\lim\limits_{n \to \infty} \frac{x_n}{y_n} = 
-\lim\limits_{n \to \infty} \frac{x_{n+1}-x_n}{y_{n+1}-y_n}
+\lim\limits_{n \to \infty} \frac{x_n}{y_n} = \lim\limits_{n \to \infty} \frac{x_{n+1}-x_n}{y_{n+1}-y_n}
 $$
 同样，若$\lim\limits_{n \to \infty} a_n \to 0$以及$\lim\limits_{n \to \infty} b_n \to 0$，并且$\{b_n\}$严格单调，则有
 $$
-\lim\limits_{n \to \infty} \frac{x_n}{y_n} = 
-\lim\limits_{n \to \infty} \frac{x_{n+1}-x_n}{y_{n+1}-y_n}
+\lim\limits_{n \to \infty} \frac{x_n}{y_n} = \lim\limits_{n \to \infty} \frac{x_{n+1}-x_n}{y_{n+1}-y_n}
 $$
