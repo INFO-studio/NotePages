@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/学习/资料库/柯林斯词典/G/gospel/","dgPassFrontmatter":true}
 ---
 
-1. N-COUNT; N-IN-NAMES 名称名词；名称名词
+1. N-COUNT; N-IN-NAMES 可数名词；名称名词
 	- 福音书（《圣经·新约》中记录耶稣基督生平和教诲的四卷书）
 	- In the New Testament of the Bible, the **Gospels** are the four books which describe the life and teachings of Jesus Christ.
 	- *...the parable in St Matthew's **Gospel**.*
