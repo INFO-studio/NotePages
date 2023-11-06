@@ -8,7 +8,7 @@
 	$$\lim\limits_{x \to 0}\cfrac{x \ln (1-x^2) + 6(x - \sin x)}{x^5}$$
 	解：讲函数展开成带有Peano余项的关于$x$的Taylor公式
 	$$\begin{aligned} \ln (1-x^2) = -x^2-\cfrac{1}{2} x^4 + o(x^4) & \quad so \quad x \ln (1-x^2) = -x^3 - \cfrac{1}{2} x^5 + o(x^5) \\ \sin x = x - \cfrac{1}{3!}x^3 + \cfrac{1}{5!}x^5 + o(x^5) & \quad so \quad 6(x-\sin x) = x^3 - \cfrac{1}{20x^5} + o(x^5) \\ \therefore \lim\limits_{x \to 0}\cfrac{x \ln (1-x^2) + 6(x - \sin x)}{x^5} &= \lim\limits_{x \to 0}\cfrac{[-x^3-\cfrac{1}{2}x^5 + o(x^5)] - [x^3 - \cfrac{1}{20} x^5 + o(x^5)]}{x^5} \\ &= \lim\limits_{x \to 0}\cfrac{-\cfrac{1}{2} x^5 - \cfrac{1}{20} x^5 + o(x^5)}{x^5} = - \cfrac{11}{20} \end{aligned}$$
-- **注：**
+- **注**：
 	- 关于函数展成几阶Trylor公式的说明：在计算极限时，利用Taylor公式讲函数展开成带有Peano余项的Teylor公式，应该展成几阶Taylor公式，即展到哪项为止，是由展开项对极限是否有影响决定的。如果此项对极限没有影响，而前一项有影响，那就应该展到前一项为止，而且余项不影响极限值！
 	- 在例1中，分子的$\sin x$展到$x^5$为止，而$\ln (1-x^2)$展到$x^4$为止，这是由于
 	$$x \ln (1-x^2) + 6(x - \sin x) = - \cfrac{11}{20} x^5 + o(x^5)$$
