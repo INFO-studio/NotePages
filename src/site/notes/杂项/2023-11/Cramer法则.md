@@ -9,7 +9,7 @@ $$
 定义$\textbf{A}_i$为$\textbf{A}$将第$i$列更换为$\textbf{c}$后得到的矩阵，则Carmer法则说明：
 若$\det(\textbf{A}) \neq \textbf{0}$，那么方程组有解$x$，其中
 $$
-x_i=\frac{\det(\textbf{A}_i)}{\det(\textbf{A})}
+x_i=\cfrac{\det(\textbf{A}_i)}{\det(\textbf{A})}
 $$
 - 特别地，若$c=\textbf{0}$，则称方程组为齐次方程组，方程组至少有解$\textbf{x}=\textbf{0}$，在齐次方程组中：
 	- 若$\det(\textbf{A}) \neq 0$，则方程组只有解$\textbf{x}=\textbf{0}$
