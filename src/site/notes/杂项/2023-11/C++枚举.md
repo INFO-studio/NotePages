@@ -12,4 +12,8 @@
 		- 将`red`、`orange`等作为符号常量，它们对应整数值0~7。这些常量叫做**枚举量**
 	- 默认将整数值赋给枚举量，第一个枚举量的值为0，第二个枚举量的值为1，依此类推
 - 枚举的声明、初始化和使用
-	- 
+	```cpp
+	enum spectrum {red, orange, yellow, green, blue, violet}
+	spectrum band;
+	band = blue;
+	```
