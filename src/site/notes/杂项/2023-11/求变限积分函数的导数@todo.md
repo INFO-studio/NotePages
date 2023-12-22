@@ -10,7 +10,7 @@ $$F’(x)=f[\varphi(x)]\varphi’(x)-f[\psi(x)]\psi’(x)$$
 - **拆分**
 	$$F(x)=\int_{\psi(x)}^{\varphi(x)}(t+x)f(t)\mathrm{d}t=\int_{\psi(x)}^{\varphi(x)}tf(t)\mathrm{d}t+x\int_{\psi(x)}^{\varphi(x)}f(t)\mathrm{d}t$$
 - **换元**
-	$$\mathrm{Assume\ that}\quad t+x=u \quad so \quad F(x)=\int_{\psi(x)}^{\varphi(x)}f(t+x)\mathrm{d}t=\int_{\psi(x)+x}^{\varphi(x)+x}f(u)\mathrm{d}u$$
+	$$\mathrm{Assume\ that}\quad t+x=u \quad \mathrm{so} \quad F(x)=\int_{\psi(x)}^{\varphi(x)}f(t+x)\mathrm{d}t=\int_{\psi(x)+x}^{\varphi(x)+x}f(u)\mathrm{d}u$$
 - **注**：
 	- 提取法将$F(x)$表示为两个函数的积，第二个函数是可以利用公式求导的变限积分函数
 	- 拆分法将$F(x)$表示为两个函数的和，其中前者时可以利用公式求导的变限积分函数；后者是两个函数的积
